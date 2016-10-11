@@ -21,21 +21,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		2B19949A1DA2635D0080697E /* CTAssetsPickerChecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B19948B1DA2635D0080697E /* CTAssetsPickerChecked.png */; };
-		2B19949B1DA2635D0080697E /* CTAssetsPickerChecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B19948C1DA2635D0080697E /* CTAssetsPickerChecked@2x.png */; };
-		2B19949C1DA2635D0080697E /* CTAssetsPickerChecked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B19948D1DA2635D0080697E /* CTAssetsPickerChecked@3x.png */; };
-		2B19949D1DA2635D0080697E /* CTAssetsPickerEmptyAsset.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B19948E1DA2635D0080697E /* CTAssetsPickerEmptyAsset.png */; };
-		2B19949E1DA2635D0080697E /* CTAssetsPickerEmptyAsset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B19948F1DA2635D0080697E /* CTAssetsPickerEmptyAsset@2x.png */; };
-		2B19949F1DA2635D0080697E /* CTAssetsPickerEmptyAsset@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1994901DA2635D0080697E /* CTAssetsPickerEmptyAsset@3x.png */; };
-		2B1994A01DA2635D0080697E /* CTAssetsPickerEmptyCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1994911DA2635D0080697E /* CTAssetsPickerEmptyCell.png */; };
-		2B1994A11DA2635D0080697E /* CTAssetsPickerEmptyCell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1994921DA2635D0080697E /* CTAssetsPickerEmptyCell@2x.png */; };
-		2B1994A21DA2635D0080697E /* CTAssetsPickerEmptyCell@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1994931DA2635D0080697E /* CTAssetsPickerEmptyCell@3x.png */; };
-		2B1994A31DA2635D0080697E /* CTAssetsPickerLocked.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1994941DA2635D0080697E /* CTAssetsPickerLocked.png */; };
-		2B1994A41DA2635D0080697E /* CTAssetsPickerLocked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1994951DA2635D0080697E /* CTAssetsPickerLocked@2x.png */; };
-		2B1994A51DA2635D0080697E /* CTAssetsPickerLocked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1994961DA2635D0080697E /* CTAssetsPickerLocked@3x.png */; };
-		2B1994A61DA2635D0080697E /* CTAssetsPickerPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1994971DA2635D0080697E /* CTAssetsPickerPlay.png */; };
-		2B1994A71DA2635D0080697E /* CTAssetsPickerPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1994981DA2635D0080697E /* CTAssetsPickerPlay@2x.png */; };
-		2B1994A81DA2635D0080697E /* CTAssetsPickerPlay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1994991DA2635D0080697E /* CTAssetsPickerPlay@3x.png */; };
 		A67AE04091963F6C77C5FE46 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AB9ED3927E2C7F99667B50 /* libPods.a */; };
 		ADDEA34B192F4A540049D6A7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA34A192F4A540049D6A7 /* MediaPlayer.framework */; };
 		ADE31D8A17EFF08C008958B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE31D8917EFF08C008958B8 /* Foundation.framework */; };
@@ -72,21 +57,6 @@
 		24F16AAF1A249DE30007F11A /* UIImage+CTAssetsPickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIImage+CTAssetsPickerController.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		24F16AB01A24AA1A0007F11A /* NSBundle+CTAssetsPickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+CTAssetsPickerController.h"; sourceTree = "<group>"; };
 		24F16AB11A24AA1A0007F11A /* NSBundle+CTAssetsPickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+CTAssetsPickerController.m"; sourceTree = "<group>"; };
-		2B19948B1DA2635D0080697E /* CTAssetsPickerChecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CTAssetsPickerChecked.png; path = pngs/CTAssetsPickerChecked.png; sourceTree = "<group>"; };
-		2B19948C1DA2635D0080697E /* CTAssetsPickerChecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CTAssetsPickerChecked@2x.png"; path = "pngs/CTAssetsPickerChecked@2x.png"; sourceTree = "<group>"; };
-		2B19948D1DA2635D0080697E /* CTAssetsPickerChecked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CTAssetsPickerChecked@3x.png"; path = "pngs/CTAssetsPickerChecked@3x.png"; sourceTree = "<group>"; };
-		2B19948E1DA2635D0080697E /* CTAssetsPickerEmptyAsset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CTAssetsPickerEmptyAsset.png; path = pngs/CTAssetsPickerEmptyAsset.png; sourceTree = "<group>"; };
-		2B19948F1DA2635D0080697E /* CTAssetsPickerEmptyAsset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CTAssetsPickerEmptyAsset@2x.png"; path = "pngs/CTAssetsPickerEmptyAsset@2x.png"; sourceTree = "<group>"; };
-		2B1994901DA2635D0080697E /* CTAssetsPickerEmptyAsset@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CTAssetsPickerEmptyAsset@3x.png"; path = "pngs/CTAssetsPickerEmptyAsset@3x.png"; sourceTree = "<group>"; };
-		2B1994911DA2635D0080697E /* CTAssetsPickerEmptyCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CTAssetsPickerEmptyCell.png; path = pngs/CTAssetsPickerEmptyCell.png; sourceTree = "<group>"; };
-		2B1994921DA2635D0080697E /* CTAssetsPickerEmptyCell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CTAssetsPickerEmptyCell@2x.png"; path = "pngs/CTAssetsPickerEmptyCell@2x.png"; sourceTree = "<group>"; };
-		2B1994931DA2635D0080697E /* CTAssetsPickerEmptyCell@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CTAssetsPickerEmptyCell@3x.png"; path = "pngs/CTAssetsPickerEmptyCell@3x.png"; sourceTree = "<group>"; };
-		2B1994941DA2635D0080697E /* CTAssetsPickerLocked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CTAssetsPickerLocked.png; path = pngs/CTAssetsPickerLocked.png; sourceTree = "<group>"; };
-		2B1994951DA2635D0080697E /* CTAssetsPickerLocked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CTAssetsPickerLocked@2x.png"; path = "pngs/CTAssetsPickerLocked@2x.png"; sourceTree = "<group>"; };
-		2B1994961DA2635D0080697E /* CTAssetsPickerLocked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CTAssetsPickerLocked@3x.png"; path = "pngs/CTAssetsPickerLocked@3x.png"; sourceTree = "<group>"; };
-		2B1994971DA2635D0080697E /* CTAssetsPickerPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CTAssetsPickerPlay.png; path = pngs/CTAssetsPickerPlay.png; sourceTree = "<group>"; };
-		2B1994981DA2635D0080697E /* CTAssetsPickerPlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CTAssetsPickerPlay@2x.png"; path = "pngs/CTAssetsPickerPlay@2x.png"; sourceTree = "<group>"; };
-		2B1994991DA2635D0080697E /* CTAssetsPickerPlay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CTAssetsPickerPlay@3x.png"; path = "pngs/CTAssetsPickerPlay@3x.png"; sourceTree = "<group>"; };
 		2BBFE1EB1D62019800ACC67D /* CTAssetsPickerChecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CTAssetsPickerChecked.png; sourceTree = "<group>"; };
 		2BBFE1EC1D62019800ACC67D /* CTAssetsPickerChecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CTAssetsPickerChecked@2x.png"; sourceTree = "<group>"; };
 		2BBFE1ED1D62019800ACC67D /* CTAssetsPickerChecked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CTAssetsPickerChecked@3x.png"; sourceTree = "<group>"; };
@@ -187,21 +157,6 @@
 		2B0D01ED1D9A997A00272FFE /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				2B19948B1DA2635D0080697E /* CTAssetsPickerChecked.png */,
-				2B19948C1DA2635D0080697E /* CTAssetsPickerChecked@2x.png */,
-				2B19948D1DA2635D0080697E /* CTAssetsPickerChecked@3x.png */,
-				2B19948E1DA2635D0080697E /* CTAssetsPickerEmptyAsset.png */,
-				2B19948F1DA2635D0080697E /* CTAssetsPickerEmptyAsset@2x.png */,
-				2B1994901DA2635D0080697E /* CTAssetsPickerEmptyAsset@3x.png */,
-				2B1994911DA2635D0080697E /* CTAssetsPickerEmptyCell.png */,
-				2B1994921DA2635D0080697E /* CTAssetsPickerEmptyCell@2x.png */,
-				2B1994931DA2635D0080697E /* CTAssetsPickerEmptyCell@3x.png */,
-				2B1994941DA2635D0080697E /* CTAssetsPickerLocked.png */,
-				2B1994951DA2635D0080697E /* CTAssetsPickerLocked@2x.png */,
-				2B1994961DA2635D0080697E /* CTAssetsPickerLocked@3x.png */,
-				2B1994971DA2635D0080697E /* CTAssetsPickerPlay.png */,
-				2B1994981DA2635D0080697E /* CTAssetsPickerPlay@2x.png */,
-				2B1994991DA2635D0080697E /* CTAssetsPickerPlay@3x.png */,
 			);
 			name = Image;
 			sourceTree = "<group>";
@@ -422,24 +377,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B19949B1DA2635D0080697E /* CTAssetsPickerChecked@2x.png in Resources */,
-				2B1994A71DA2635D0080697E /* CTAssetsPickerPlay@2x.png in Resources */,
-				2B1994A31DA2635D0080697E /* CTAssetsPickerLocked.png in Resources */,
-				2B19949C1DA2635D0080697E /* CTAssetsPickerChecked@3x.png in Resources */,
 				ADE31DA517EFF08C008958B8 /* Images.xcassets in Resources */,
-				2B19949E1DA2635D0080697E /* CTAssetsPickerEmptyAsset@2x.png in Resources */,
 				ADE31D9417EFF08C008958B8 /* InfoPlist.strings in Resources */,
 				ADE31D9D17EFF08C008958B8 /* Main.storyboard in Resources */,
-				2B1994A61DA2635D0080697E /* CTAssetsPickerPlay.png in Resources */,
-				2B19949A1DA2635D0080697E /* CTAssetsPickerChecked.png in Resources */,
-				2B1994A21DA2635D0080697E /* CTAssetsPickerEmptyCell@3x.png in Resources */,
-				2B1994A11DA2635D0080697E /* CTAssetsPickerEmptyCell@2x.png in Resources */,
-				2B1994A01DA2635D0080697E /* CTAssetsPickerEmptyCell.png in Resources */,
-				2B1994A81DA2635D0080697E /* CTAssetsPickerPlay@3x.png in Resources */,
-				2B19949D1DA2635D0080697E /* CTAssetsPickerEmptyAsset.png in Resources */,
-				2B1994A51DA2635D0080697E /* CTAssetsPickerLocked@3x.png in Resources */,
-				2B1994A41DA2635D0080697E /* CTAssetsPickerLocked@2x.png in Resources */,
-				2B19949F1DA2635D0080697E /* CTAssetsPickerEmptyAsset@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
