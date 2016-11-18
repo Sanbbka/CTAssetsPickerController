@@ -105,17 +105,6 @@ NSString * const CTAssetsSupplementaryViewIdentifier = @"CTAssetsSupplementaryVi
     [self setupButtons];
     [self setupToolbar];
     [self setupAssets];
-    
-    [self.view layoutIfNeeded];
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    
-    if (self.assets.count > 0) {
-        NSIndexPath *indexPath = [NSIndexPath indexPathForItem:[self.assets indexOfObject:self.assets.firstObject] inSection:0];
-        [self.collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
-    }
 }
 
 - (void)dealloc
