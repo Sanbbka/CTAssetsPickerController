@@ -206,7 +206,7 @@ NSString * const CTAssetsSupplementaryViewIdentifier = @"CTAssetsSupplementaryVi
 {
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
     
-    layout.itemSize             = CTAssetThumbnailSize;
+    layout.itemSize             = CGSizeMake(96, 96);//CTAssetThumbnailSize;
     layout.footerReferenceSize  = CGSizeMake(0, 47.0);
     
     if (UIInterfaceOrientationIsLandscape(orientation) && (UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPad))
@@ -370,10 +370,8 @@ NSString * const CTAssetsSupplementaryViewIdentifier = @"CTAssetsSupplementaryVi
 {
     if (self.assets.count > 0)
     {
+        [self.collectionViewLayout invalidateLayout];
         [self.collectionView reloadData];
-        
-        if (self.collectionView.contentOffset.y <= 0)
-            [self.collectionView setContentOffset:CGPointMake(0, self.collectionViewLayout.collectionViewContentSize.height)];
     }
     else
     {
